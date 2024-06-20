@@ -1,0 +1,41 @@
+
+.rule{
+    background-color: #bfdb1d;
+    color: #0a0a0a;
+    text-align:left;
+    font-size: large;
+    font-stretch: expanded;        
+}
+ h1{
+    text-align: center;
+    text-transform: uppercase;
+    color: #1b1b1a;
+ }
+ p{
+    border: 5px solid black;
+    padding: 10px;
+    margin: 10px;
+   
+ }
+ .navigation{
+   display: flex;
+   background-color: black;
+   overflow-x: scroll;
+ }
+ .navigation::-webkit-scrollbar{
+     display: none;
+ }
+ .navigation >li {
+   padding: 10px;
+     color: white; 
+     margin-right: 10px;
+     list-style: none;
+     text-wrap: nowrap;
+     text-transform:uppercase;
+     font-size: 15px;
+ }
+
+ .navigation >li:hover{
+   background-color:#ee390c;
+
+ }
